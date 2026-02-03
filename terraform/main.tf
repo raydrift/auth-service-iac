@@ -51,8 +51,8 @@ module "compute" {
   desired_capacity         = var.desired_capacity
   min_size                 = var.min_size
   max_size                 = var.max_size
-  ami_owner                = "amazon"
-  ami_name_filter          = "amzn2-ami-hvm-*"
+  ami_owner                = "099720109477"
+  ami_name_filter          = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"
   root_volume_size         = 30
   root_volume_type         = "gp3"
   root_volume_encrypted    = true
